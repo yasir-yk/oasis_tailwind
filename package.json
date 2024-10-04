@@ -1,0 +1,21 @@
+{
+  "name": "markup",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "vite",
+    "build:css": "npx tailwindcss -i ./template_oasis/css/main.css -o ./template_oasis/css/all.css --minify"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.13",
+    "vite": "^5.4.8"
+  },
+  "dependencies": {
+    "flowbite": "^2.5.2"
+  }
+}

@@ -1,0 +1,23 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ['*'],
+  theme: {
+    extend: {
+      colors: {
+        primary: '#0C336B',  // Customize with your desired primary color
+        secondary: '#D8BB7A', // Customize with your desired secondary color
+        light: '#F6FAF1',
+      },
+      fontFamily: {
+        poppins: ['"Poppins"', 'sans-serif'],
+
+      },
+      backgroundImage: {
+        'hover-gradient': 'linear-gradient(180deg, #FBE39B 0%, #A5824B 100%)',
+      },
+    },
+  },
+  plugins: [
+    require('flowbite/plugin') // Include Flowbite as a plugin
+  ],
+}
