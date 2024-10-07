@@ -1,0 +1,254 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link href="./assets/css/main.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body class="font-poppins text-[22px] leading-normal text-[#555555]">
+    <div id="wrapper">
+        <div class="topbar bg-primary py-2 px-3">
+            <div class="container flex justify-between items-center">
+                <div class="logo w-40"><img src="./assets/images/logo.svg" alt=""></div>
+                <ul class="flex align-middle divide-x-2 divide-[#6482B1] text-base">
+                    <li class="px-4">
+                        <a href="#" class="flex gap-2 text-white align-middle">
+                            <img src="./assets/images/email.svg" alt="Email">
+                            <span class="hidden md:block">Contact US</span>
+                        </a>
+                    </li>
+                    <li class="px-4">
+                        <a href="#" class="flex gap-2 text-white align-middle">
+                            <img src="./assets/images/login.svg" alt="Email">
+                            <span class="hidden md:block">Login</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <header id="header" class="bg-light ">
+            <nav class="w-full z-20 top-0 start-0">
+                <div class="container flex flex-wrap items-center justify-between py-4 px-3">
+                    <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse w-40">
+                        <img src="./assets/images/be-it-evaluation.svg" class="h-8 w-full"
+                            alt="Be-it Evaluation" />
+                    </a>
+                    <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse items-center">
+                        <a class="btn bg-secondary" href="#">Start Now</a>
+                        <button data-collapse-toggle="navbar-sticky" type="button"
+                            class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                            aria-controls="navbar-sticky" aria-expanded="false">
+                            <span class="sr-only">Open main menu</span>
+                            <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 17 14">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" d="M1 1h15M1 7h15M1 13h15" />
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="items-center hidden w-full md:flex md:w-auto md:order-1 ms-auto me-7"
+                        id="navbar-sticky">
+                        <ul
+                            class="flex flex-col md:p-0 md:space-x-8 rtl:space-x-reverse md:flex-row md:border-0 font-medium text-lg">
+                            <li>
+                                <a href="#" class="block py-2 px-3 active rounded" aria-current="page">Home</a>
+                            </li>
+                            <li>
+                                <a href="#" class="block py-2 px-3 text-primary rounded ">About</a>
+                            </li>
+                            <li>
+                                <a href="#" class="block py-2 px-3 text-primary rounded">Services</a>
+                            </li>
+                            <li>
+                                <a href="#" class="block py-2 px-3 text-primary rounded">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main id="main">
+            <div class='bg-custom-gradient'>
+                <div class="container">
+                    <div class='py-14 lg:py-24'>
+                        <div class="grid grid-cols-1 lg:grid-cols-2">
+                            <div class='flex flex-col justify-center items-center lg:items-start lg:pr-36 mb-10'>
+                                <h1 class='text-white text-center lg:text-left text-3xl lg:text-[60px] font-semibold leading-none'>
+                                    Collaborate. Innovate. Excel.
+                                </h1>
+                                <p class='font-light text-white text-center lg:text-left leading-7'>
+                                    We emphasize cross-functional collaboration, open communication, efficient resource management, and technology integration to streamline operations and enhance productivity.
+                                </p>
+                            </div>
+                            <div class='flex justify-center'>
+                                <div class='bg-white rounded-2xl px-6 py-10 max-w-[660px]'>
+                                    <h2 class='text-3xl font-semibold leading-relaxed'>
+                                        <span class='text-secondary'>Evaluate</span> your Trailblazing Readiness
+                                    </h2>
+                                    <p class='leading-7 mb-4'>
+                                        Already have an account? <a href='#' class='text-primary underline'>Log In</a> to Oasis now.
+                                    </p>
+                                    <div>
+                                        <span class='text-[20px] text-primary leading-10 font-semibold mb-4'>Personal Info</span>
+                                        <div class='flex flex-col lg:flex-row gap-4 mb-4'>
+                                            <div class='flex-1'>
+                                                <label class='block text-base text-[#555555] leading-6'>Your Name*</label>
+                                                <input type='name' id='name' class='h-[50px] mt-1 p-2 w-full border border-gray-300 rounded-md' />
+                                            </div>
+                                            <div class='flex-1'>
+                                                <label class='block text-base text-[#555555] leading-6'>Email*</label>
+                                                <input type='Email' id='Email' class='h-[50px] mt-1 p-2 w-full border border-gray-300 rounded-md' />
+                                            </div>
+                                        </div>
+                                        <div class='flex flex-col lg:flex-row gap-4  mb-4'>
+                                            <div class='flex-1'>
+                                                <label class='block text-base text-[#555555] leading-6'>Role in Organization</label>
+                                                <select id='role' class='h-[50px] mt-1 p-2 w-full border border-gray-300 rounded-md'>
+                                                    <option value=''>Individual Contribution</option>
+                                                    <option value='option1'>Option 1</option>
+                                                    <option value='option2'>Option 2</option>
+                                                    <option value='option3'>Option 3</option>
+                                                </select>
+                                            </div>
+                                            <div class='flex-1'>
+                                                <label class='block text-base text-[#555555] leading-6'>How many years in this role?</label>
+                                                <select id='years' class='h-[50px] mt-1 p-2 w-full border border-gray-300 rounded-md'>
+                                                    <option value=''>0-3 Years</option>
+                                                    <option value='option1'>Option 1</option>
+                                                    <option value='option2'>Option 2</option>
+                                                    <option value='option3'>Option 3</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class=''>
+                                        <span class='text-[20px] text-primary leading-10 font-semibold mb-2 block'>Company Info</span>
+                                        <div class='flex flex-col lg:flex-row gap-4 mb-4'>
+                                            <div class='flex-1'>
+                                                <label class='block text-base text-[#555555] leading-6'>Company Name*</label>
+                                                <input type='companyName'  id='companyName' class='h-[50px] mt-1 p-2 w-full border border-gray-300 rounded-md' />
+                                            </div>
+                                            <div class='flex-1'>
+                                                <label class='block text-base text-[#555555] leading-6'>Company Type</label>
+                                                <select id='retail' class='h-[50px] mt-1 p-2 w-full border border-gray-300 rounded-md'>
+                                                    <option value=''>Retail</option>
+                                                    <option value='option1'>Option 1</option>
+                                                    <option value='option2'>Option 2</option>
+                                                    <option value='option3'>Option 3</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class='flex flex-col lg:flex-row gap-4 mb-8'>
+                                            <div class='flex-1'>
+                                                <label class='block text-base text-[#555555] leading-6'>Company Size</label>
+                                                <select id='compSize' class='h-[50px] mt-1 p-2 w-full border border-gray-300 rounded-md'>
+                                                    <option value=''>Company Size</option>
+                                                    <option value='option1'>Option 1</option>
+                                                    <option value='option2'>Option 2</option>
+                                                    <option value='option3'>Option 3</option>
+                                                </select>
+                                            </div>
+                                            <div class='flex-1'>
+                                                <label class='block text-base text-[#555555] leading-6'>How long in business?</label>
+                                                <select id='business' class='h-[50px] mt-1 p-2 w-full border border-gray-300 rounded-md'>
+                                                    <option value=''>How long in business?</option>
+                                                    <option value='option1'>Option 1</option>
+                                                    <option value='option2'>Option 2</option>
+                                                    <option value='option3'>Option 3</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <button class='w-full block btn bg-secondary'>Sign Up</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+        $('.responsive').slick({
+            dots: false,
+            infinite: false,
+            speed: 300,
+            slidesToShow: 5,
+            slidesToScroll: 1,
+            arrows: false,
+            autoplay: true,
+            responsive: [
+                {
+                    breakpoint: 1250,
+                    settings: {
+                        slidesToShow: 5,
+
+                    }
+                },
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 4,
+                    }
+                },
+                {
+                    breakpoint: 991,
+                    settings: {
+                        slidesToShow: 3,
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 2,
+                    }
+                }
+            ]
+        });
+        $('.testimonials').slick({
+            dots: false,
+            infinite: false,
+            speed: 300,
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            arrows: true,
+            autoplay: true,
+            prevArrow: '<button class="slick-prev"><i class="ri-arrow-left-line"></i></button>',
+            nextArrow: '<button class="slick-next"><i class="ri-arrow-right-line"></i></button>',
+            responsive: [
+                {
+                    breakpoint: 767,
+                    settings: {
+                        slidesToShow: 1,
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                    }
+                }
+            ]
+        });
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "start": "vite",
-    "build:css": "npx tailwindcss -i ./template_oasis/css/main.css -o ./template_oasis/css/all.css --minify"
+    "build:css": "npx tailwindcss -i ./assets/css/main.css -o ./assets/css/all.css --minify"
   },
   "author": "",
   "license": "ISC",

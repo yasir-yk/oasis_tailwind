@@ -1,0 +1,199 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link href="./assets/css/main.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body class="font-poppins text-[22px] leading-normal text-[#555555]">
+    <div id="wrapper">
+        <div class="topbar bg-primary py-2 px-3">
+            <div class="container flex justify-between items-center">
+                <div class="logo w-40"><img src="./assets/images/logo.svg" alt=""></div>
+                <ul class="flex align-middle divide-x-2 divide-[#6482B1] text-base">
+                    <li class="px-4">
+                        <a href="#" class="flex gap-2 text-white align-middle">
+                            <img src="./assets/images/email.svg" alt="Email">
+                            <span class="hidden md:block">Contact US</span>
+                        </a>
+                    </li>
+                    <li class="px-4">
+                        <a href="#" class="flex gap-2 text-white align-middle">
+                            <img src="./assets/images/login.svg" alt="Email">
+                            <span class="hidden md:block">Login</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <header id="header" class="bg-light ">
+            <nav class="w-full z-20 top-0 start-0">
+                <div class="container flex flex-wrap items-center justify-between py-4 px-3">
+                    <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse w-40">
+                        <img src="./assets/images/be-it-evaluation.svg" class="h-8 w-full"
+                            alt="Be-it Evaluation" />
+                    </a>
+                    <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse items-center">
+                        <a class="btn bg-secondary" href="#">Start Now</a>
+                        <button data-collapse-toggle="navbar-sticky" type="button"
+                            class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                            aria-controls="navbar-sticky" aria-expanded="false">
+                            <span class="sr-only">Open main menu</span>
+                            <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 17 14">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" d="M1 1h15M1 7h15M1 13h15" />
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="items-center hidden w-full md:flex md:w-auto md:order-1 ms-auto me-7"
+                        id="navbar-sticky">
+                        <ul
+                            class="flex flex-col md:p-0 md:space-x-8 rtl:space-x-reverse md:flex-row md:border-0 font-medium text-lg">
+                            <li>
+                                <a href="#" class="block py-2 px-3 active rounded" aria-current="page">Home</a>
+                            </li>
+                            <li>
+                                <a href="#" class="block py-2 px-3 text-primary rounded ">About</a>
+                            </li>
+                            <li>
+                                <a href="#" class="block py-2 px-3 text-primary rounded">Services</a>
+                            </li>
+                            <li>
+                                <a href="#" class="block py-2 px-3 text-primary rounded">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main id="main">
+            <div class="container text-center px-10 py-5 md:py-20">
+                <h2 class="text-black text-center text-[32px] leading-normal md:text-[42px] md:leading-normal font-semibold">
+                    Login to your
+                    <img src="./assets/images/logo.svg" class="w-32 inline" alt="logo" /> account
+                </h2>
+                <div class="max-w-[600px] mx-auto">
+                <form class="flex flex-col gap-6">
+                    <div class="flex flex-col text-left relative mt-8">
+                        <label for="email" class="text-gray-600 text-sm mb-1">Email Address</label>
+                        <input id="email" type="email" placeholder="" class="p-3 text-lg w-full border border-gray-300 rounded"/>
+                    </div>
+                    <div class="flex flex-col text-left relative">
+                        <label for="password" class="text-gray-600 text-sm mb-2">Password</label>
+                        <a href="#" class="text-customBlue text-sm absolute right-0 top-0">Forgot Password?</a>
+                        <input id="password" type="password" placeholder="" class="p-3 text-lg w-full border border-gray-300 rounded"
+                        />
+                    </div>
+                    <button type="submit" class="btn bg-secondary"> Login to OASIS</button>
+                    <div class="flex items-center justify-center mt-2">
+                        <hr class="flex-1 border-t border-gray-300" />
+                        <p class="mx-4 font-light text-sm">Or use alternative method</p>
+                        <hr class="flex-1 border-t border-gray-300" />
+                    </div>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 w-full p-4">
+                        <a href="#" class="no-underline">
+                            <div class="flex items-center border border-gray-300 p-4 bg-white rounded-lg shadow">
+                                <img src="./assets/images/google.svg" alt="GoogleImage" class="mr-3" />
+                                <span class="text-lg font-medium">Sign in with Google</span>
+                            </div>
+                        </a>
+                        <a href="#" class="no-underline">
+                            <div class="flex items-center border border-gray-300 p-4 bg-white rounded-lg shadow">
+                                <img src="./assets/images/microsoft.svg" alt="MicrosoftImage" class="mr-3" />
+                                <span class="text-lg font-medium">Sign in with Microsoft</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div>
+                        <span>Don't have an account yet? </span>
+                        <button type="button" class="btn bg-secondary">Sign Up</button>
+                    </div>
+                </form>
+            </div>
+            </div>
+        </main>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+        $('.responsive').slick({
+            dots: false,
+            infinite: false,
+            speed: 300,
+            slidesToShow: 5,
+            slidesToScroll: 1,
+            arrows: false,
+            autoplay: true,
+            responsive: [
+                {
+                    breakpoint: 1250,
+                    settings: {
+                        slidesToShow: 5,
+
+                    }
+                },
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 4,
+                    }
+                },
+                {
+                    breakpoint: 991,
+                    settings: {
+                        slidesToShow: 3,
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 2,
+                    }
+                }
+            ]
+        });
+        $('.testimonials').slick({
+            dots: false,
+            infinite: false,
+            speed: 300,
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            arrows: true,
+            autoplay: true,
+            prevArrow: '<button class="slick-prev"><i class="ri-arrow-left-line"></i></button>',
+            nextArrow: '<button class="slick-next"><i class="ri-arrow-right-line"></i></button>',
+            responsive: [
+                {
+                    breakpoint: 767,
+                    settings: {
+                        slidesToShow: 1,
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                    }
+                }
+            ]
+        });
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

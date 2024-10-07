@@ -1,0 +1,55 @@
+/* @import 'flowbite'; */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  min-width: 365px;
+}
+
+.active {
+  @apply text-secondary;
+}
+.btn {
+  @apply hover:bg-hover-gradient cursor-pointer rounded-lg px-4 lg:px-9 py-4 font-medium text-sm md:text-lg text-center text-white min-w-28;
+}
+
+.btn-default {
+  @apply cursor-pointer rounded-lg px-5 lg:px-9 py-4 font-medium text-sm md:text-lg text-center text-white min-w-32;
+}
+
+.container {
+  @apply max-w-screen-xl mx-auto px-4;
+}
+.list-item:before {
+  content: url('../images/tick.svg') !important;
+  left: -7px;
+  top: 0;
+}
+.slick-disabled {
+  display: none !important;
+}
+
+.slick-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translate(-25%, -50%);
+  background: #fff;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  z-index: 99;
+  /* Shadow 2 */
+  filter: drop-shadow(0px 12px 16px rgba(0, 0, 0, 0.08));
+}
+
+.slick-next.slick-arrow {
+  right: 0;
+  transform: translate(25%, -50%);
+}
+
+.slick-prev.slick-arrow {
+  left: 0;
+  transform: translate(-25%, -50%);
+}
