@@ -53,3 +53,45 @@ body {
   left: 0;
   transform: translate(-25%, -50%);
 }
+.cardbox{
+  @apply bg-white max-w-full xl:max-w-[50%] relative -mt-10 xl:-mt-32 rounded-xl shadow-customShadow py-4 md:py-11 px-4 md:px-12 mb-10 lg:mb-0
+}
+.cardrow{
+  @apply flex flex-col lg:flex-row gap-[30px] justify-center items-center mb-10 px-5 lg:px-[55px]
+}
+.mainheading{
+  @apply text-[32px] leading-normal md:text-[42px] md:leading-normal font-semibold
+}
+.ctabox{
+  @apply p-5 bg-white rounded-lg border border-[#EBEBEB] hover:shadow-[0px_4px_40px_rgba(0,0,0,0.1)] flex flex-col lg:flex-row items-center justify-between mb-4
+}
+.freetag{
+  @apply pt-28 lg:pt-11 before:absolute before:left-1/2 lg:before:left-auto before:-translate-x-1/2 lg:before:-translate-x-0  lg:before:right-12 before:-top-[10px] before:bg-[url('../images/freetag.svg')] before:w-[87px] before:h-[100px]
+}
+.cardheading{
+  @apply text-[25px] xl:text-[30px] font-bold leading-10;
+}
+.radiochecked{
+  @apply peer-checked:border-secondary block border border-transparent relative after:content-[''] after:absolute after:right-5 after:top-4 after:shadow-customShadow  after:w-[32px] after:h-[32px] after:rounded-full after:bg-[#a0a0a0] shadow-customShadow py-4 ps-5 pe-16 peer-checked:after:bg-secondary before:absolute before:right-[27px] before:content-[''] before:top-[25px] before:z-10 before:w-4 before:h-2 before:border-l before:border-b before:border-white before:-rotate-45 rounded-lg
+}
+.radiochecked:after{
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add your custom shadow here */
+}
+/* .checklist li .question{
+  border: 1px solid transparent;
+  position: relative;
+}
+.checklist li .question:after{
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  content:'';
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #000;
+}
+.checklist li input:checked + .question{
+  border: 1px solid #000;
+} */
